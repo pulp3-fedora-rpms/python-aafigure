@@ -14,6 +14,8 @@ BuildArch:      noarch
 BuildRequires:  python3-devel
 BuildRequires:  python3dist(setuptools)
 BuildRequires:  python3dist(sphinx)
+# Manually added. Requires PIL or pillow. pillow is in Fedora already.
+BuildRequires:  python3dist(pillow)
 
 %description
 This package provides a module aafigure, that can be used from other programs,
